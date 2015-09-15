@@ -1,8 +1,28 @@
 h1{
-	color: blue;
+	color: #F08080;
+	text-align: center;
 }
 
 
 body {
-	background-color: pink;
+	background-color: #FFEFD5;
+}
+
+.copyright p  {
+	float: right;
+	margin-right: 200px;
+	margin-bottom: 800px;
+	margin-top: -20px;
+}
+
+.nav {
+	margin-left: 290px;
+
+}
+
+.banner{
+	margin-left: 290px;
+	margin-top: 0px;
+	width: 600px
+	height:200px;
 }
