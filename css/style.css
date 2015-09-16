@@ -1,6 +1,7 @@
 h1{
-	color: #F08080;
+	color: #FDF5E6;
 	text-align: center;
+	background-color: #DB7093;
 }
 
 
@@ -8,6 +9,10 @@ body {
 	background-color: #FFEFD5;
 }
 
+.logo{
+	margin-left: 500px;
+	float: top;
+}
 .copyright p  {
 	float: right;
 	margin-right: 200px;
@@ -21,8 +26,7 @@ body {
 }
 
 .banner{
-	margin-left: 290px;
-	margin-top: 0px;
-	width: 600px
-	height:200px;
+	float:top;
+	margin-left: 450px;
+
 }
