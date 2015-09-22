@@ -1,18 +1,20 @@
-h1{
+.container-fluid{
+	padding: 0px;
+}
+
+.header{
+	width: 100%;
+	font-size: 36px;
 	color: #FDF5E6;
 	text-align: center;
 	background-color: #DB7093;
+	margin-bottom: 100px;
 }
-
 
 body {
 	background-color: #FFEFD5;
 }
 
-.logo{
-	margin-left: 500px;
-	float: top;
-}
 .copyright p  {
 	float: right;
 	margin-right: 200px;
@@ -21,12 +23,13 @@ body {
 }
 
 .nav {
-	margin-left: 290px;
+	margin: 0px 600px 0px 450px;
 
 }
+
+
 
 .banner{
 	float:top;
 	margin-left: 450px;
-
 }
