@@ -21,19 +21,31 @@ body {
 	margin-top: -20px;
 }
 
-/*.nav {
-	margin: 0px 600px 0px 550px;
-
-}*/
 .nav-pills > li {
-    float:none;
-    display:inline-block;
-    *display:inline; /* ie7 fix */
-     zoom:1; /* hasLayout ie7 trigger */
+	float:none;
+	display:inline-block;
+	*display:inline; /* ie7 fix */
+	zoom:1; /* hasLayout ie7 trigger */
 }
 
 .nav-pills {
-    text-align:center;
+	text-align:center;
+}
+
+/*make non-active nav-pills same color as parent*/
+.nav-pills > li > a:hover {
+	color: #ADD8E6;
+	background-color: inherit;
+}
+
+/*change color of active pills*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+	color: #ADD8E6;
+	background-color: #FA8072;
+}
+.nav-pills > li.active > a:hover {
+	color: #ADD8E6;
+	background-color: #F9A49A;
 }
 
 .banner>img, .logo>img{

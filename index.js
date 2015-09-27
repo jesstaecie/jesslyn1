@@ -1,25 +1,25 @@
 $(function() {
 	$(".navcontent").hide();
-	$(".navappetizer").show();
+	$(".appetizer").show();
 
 	$("#navappetizer").click(function(){
 		$(".nav li").removeClass("active");
 		$(this).addClass("active");
 		$(".navcontent").hide();
-		$(".appetizer").show();
+		$(".appetizer").fadeIn(500);
 	})
 
 	$("#navpresent").click(function(){
 		$(".nav li").removeClass("active");
 		$(this).addClass("active");
 		$(".navcontent").hide();
-		$(".present").show();
+		$(".present").fadeIn(500);
 	})
 
 	$("#navfuture").click(function(){
 		$(".nav li").removeClass("active");
 		$(this).addClass("active");
 		$(".navcontent").hide();
-		$(".future").show();
+		$(".future").fadeIn(500);
 	})
 });
