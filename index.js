@@ -6,20 +6,20 @@ $(function() {
 		$(".nav li").removeClass("active");
 		$(this).addClass("active");
 		$(".navcontent").hide();
-		$(".appetizer").fadeIn(500);
+		$(".appetizer").fadeIn(100);
 	})
 
 	$("#navpresent").click(function(){
 		$(".nav li").removeClass("active");
 		$(this).addClass("active");
 		$(".navcontent").hide();
-		$(".present").fadeIn(500);
+		$(".present").fadeIn(100);
 	})
 
 	$("#navfuture").click(function(){
 		$(".nav li").removeClass("active");
 		$(this).addClass("active");
 		$(".navcontent").hide();
-		$(".future").fadeIn(500);
+		$(".future").fadeIn(100);
 	})
 });

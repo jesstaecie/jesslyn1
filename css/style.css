@@ -15,10 +15,10 @@ body {
 }
 
 .copyright p  {
-	float: right;
+
 	margin-right: 200px;
-	margin-bottom: 800px;
 	margin-top: -20px;
+	margin-left: 0;
 }
 
 .nav-pills > li {
@@ -34,25 +34,54 @@ body {
 
 /*make non-active nav-pills same color as parent*/
 .nav-pills > li > a:hover {
-	color: #ADD8E6;
+	color: #A13030;
 	background-color: inherit;
 }
 
 /*change color of active pills*/
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
-	color: #ADD8E6;
+	color: #8B0000;
 	background-color: #FA8072;
 }
 .nav-pills > li.active > a:hover {
-	color: #ADD8E6;
+	color: #A13030;
 	background-color: #F9A49A;
+}
+
+.nav-pills >li >a{
+	color: #8B0000;
+	background-color: #FFD6D6;
+}
+
+.navcontent{
+	text-align: center;
 }
 
 .banner>img, .logo>img{
 	display: block;
 	margin: auto;
+	margin-bottom: 10px;
 }
 
-.navcontent{
+/*.footerupdate{
+	display: table;
+	text-align: center;	
+	bottom: 0;
+	position: fixed;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+.footerupdate {
+	clear: both;
 	text-align: center;
+	position: relative;
+	bottom: 0;
+	z-index: 10;
+	width:100%;
+	height: 3em;
+	margin-top: 6em;
+	background-color: #0A0A00;
+	color: #FFFFFF;
 }
