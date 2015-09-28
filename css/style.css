@@ -4,22 +4,24 @@
 
 .header{
 	width: 100%;
-	font-size: 36px;
-	color: #FDF5E6;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 46px;
+	color :#F08080;
 	text-align: center;
-	background-color: #DB7093;
+ /*#FDF5E6*/
+	/*background-color: #DB7093;*/
 }
 
 body {
 	background-color: #FFEFD5;
 }
 
-.copyright p  {
+/*.copyright p  {
 
 	margin-right: 200px;
 	margin-top: -20px;
 	margin-left: 0;
-}
+}*/
 
 .nav-pills > li {
 	float:none;
