@@ -22,4 +22,10 @@ $(function() {
 		$(".navcontent").hide();
 		$(".future").fadeIn(100);
 	})
+
+	$(".footerupdate").html('Made with love @jesstaecie' + "<br>" 
+		+ 'Copyright© ' + new Date().getDate() + '.' 
+		+ (new Date().getMonth()+ 1) +'.' 
+		+ new Date().getFullYear());
 });
+

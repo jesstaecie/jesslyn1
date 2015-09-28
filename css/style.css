@@ -4,25 +4,25 @@
 
 .header{
 	width: 100%;
-	font-family: 'Brush Script MT', cursive;
-	font-size: 46px;
+	
+	font-size: 36px;
 	color :#F08080;
 	text-align: center;
  /*#FDF5E6*/
 	/*background-color: #DB7093;*/
 }
 
+h1{
+	font-family: 'Brush Script MT', cursive;
+	font-size: 56px; 
+
+}
+
 body {
 	background-color: #FFEFD5;
 }
 
-/*.copyright p  {
-
-	margin-right: 200px;
-	margin-top: -20px;
-	margin-left: 0;
-}*/
-
+/*-----------------Navigation pill CSS---------------------*/
 .nav-pills > li {
 	float:none;
 	display:inline-block;
@@ -34,9 +34,9 @@ body {
 	text-align:center;
 }
 
-/*make non-active nav-pills same color as parent*/
+/*make non-active nav-pills same color as parent when hover*/
 .nav-pills > li > a:hover {
-	color: #A13030;
+	color: #A13030; 
 	background-color: inherit;
 }
 
@@ -45,14 +45,17 @@ body {
 	color: #8B0000;
 	background-color: #FA8072;
 }
+
+/*lighter brown text when hover, lighter coral pink pill when hover*/
 .nav-pills > li.active > a:hover {
-	color: #A13030;
+	color: #A13030; 
 	background-color: #F9A49A;
 }
 
+/* default darker brown font text colour */
 .nav-pills >li >a{
 	color: #8B0000;
-	background-color: #FFD6D6;
+	background-color: #FFD6D6; /*lighter pink pill background of normal inactive pill*/
 }
 
 .navcontent{
